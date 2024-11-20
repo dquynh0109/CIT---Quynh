@@ -6,7 +6,7 @@ body {
 }
 .calendar-container {
     max-width: 600px;
-    margin: 20px auto; /*Căn lịch ở giữa*/
+    margin: 20px auto;
     text-align: center;
     background-color: white;
 }
