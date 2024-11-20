@@ -1,0 +1,57 @@
+body {
+    font-family: 'Times New Roman';
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.calendar-container {
+    max-width: 600px;
+    margin: 20px auto; /*Căn lịch ở giữa*/
+    text-align: center;
+    background-color: white;
+}
+.calendar-header h1{
+    margin:0;
+    font-size: 30px;
+    color: blue;
+}
+.calendar {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.calendar th {
+    color: white;
+    background-color: orange;
+    padding: 5px;
+}
+.calendar th, .calendar td {
+    border: 1px solid gray ;
+    text-align: center;
+    height: 50px;
+}
+.calendar td {
+    font-size: 14px;
+    vertical-align: middle;
+}
+.calendar td sub {
+    font-size: 10px;
+    color: gray;
+}
+.calendar .sunday {
+    background-color: white ;
+    color: red;
+}
+.calendar th.sunday {
+    background-color: red ;
+    color: white;
+}
+.calendar th.saturday {
+    background-color: blue;
+    color: white;
+}
+.calendar .saturday {
+    background-color: white;
+    color: blue;
+}
+

@@ -1,0 +1,2 @@
+git config --global user.name "dquynh0109"
+git config --global user.email "nguyendiemquynh@edusuccess.vn"

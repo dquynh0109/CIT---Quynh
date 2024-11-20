@@ -1,0 +1,13 @@
+th,td {
+    border: 2px solid black;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    padding: 20px;
+}
+
+.ahihi {
+    color: blueviolet;
+}

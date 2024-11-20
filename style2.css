@@ -1,0 +1,58 @@
+body {
+    background-color: white;
+    font-family: 'Times New Roman',serif;
+    margin: 20px;
+    line-height: 1;
+    padding: 0;
+}
+
+h1 {
+    background-color: navy;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 150 px;
+    height: 150px;
+    border-radius: 50%;
+}
+p {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+}
+ul, ol {
+    font-size: 18px;
+    margin-left: 40px;
+    color: black;
+
+}
+a {
+    color: blue;
+}
+iframe {
+    display: block;
+    margin: 20px;
+    border: none;
+    text-align: center;
+}
+h2 {
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
+/* Định dạng đoạn "HẾT" */
+p:last-of-type {
+    color: red;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
