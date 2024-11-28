@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biểu mẫu</title>
+    <link rel="stylesheet" href="tuan4.css">
+</head>
+<body>
+    <form action="submit_form.html" method = "get" target = "_blank">
+        <h1>BIỂU MẪU THÔNG TIN</h1>
+        <div class="form">
+            <label for="name">Họ và tên</label>
+            <input type="text" id="name" name="name" placeholder="Nhập họ và tên của bạn" required>
+        </div>
+
+        <!-- Email -->
+        <div class="form">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Nhập email của bạn" required>
+        </div>
+
+        <!-- Mật khẩu -->
+        <div class="form">
+            <label for="password">Mật khẩu</label>
+            <input type="password" id="password" name="password" minlength="8" placeholder="Nhập mật khẩu" required>
+        </div>
+
+        <!-- Ngày sinh -->
+        <div class="form">
+            <label for="dob">Ngày sinh</label>
+            <input type="date" id="dob" name="dob" placeholder="Nhập ngày sinh của bạn" required>
+        </div>
+
+        <!-- Giới tính -->
+        <div class="form">
+            <label>Giới tính</label>
+            <div class="center">
+                <input type="radio" id="male" name="gender" value="Nam" required>
+                <label for="male">Nam</label>
+                <input type="radio" id="female" name="gender" value="Nữ" required>
+                <label for="female">Nữ</label>
+            </div>
+        </div>
+
+        <!-- Sở thích -->
+        <div class="form">
+            <label>Sở thích</label>
+            <div class="center">
+                <input type="checkbox" id="reading" name="hobby" value="Đọc sách">
+                <label for="reading">Đọc sách</label>
+                <input type="checkbox" id="traveling" name="hobby" value="Du lịch">
+                <label for="traveling">Du lịch</label>
+                <input type="checkbox" id="listening" name="hobby" value="Nghe nhạc">
+                <label for="listening">Nghe nhạc</label>
+            </div>
+        </div>
+
+        <!-- Tải ảnh đại diện -->
+        <div class="form">
+            <label for="avt">Tải lên ảnh đại diện</label>
+            <input type="file" id="avt" name="avt" accept="image/*">
+        </div>
+
+        <!-- Nút gửi -->
+        <div class="form">
+            <input type="submit" value="Gửi">
+        </div>
+    </form>
+</body>
+</html>
